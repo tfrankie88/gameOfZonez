@@ -6,9 +6,9 @@ When you play the Game of Zones, you win or ... well you don't die, but you migh
 
 ## Setup
 
-You've been provided starter HTML, CSS and JS. Everything should be linked properly including **jQuery**. There's no need to edit `index.html` or `style.css` - work only in `game1.js` for Game 1 and `game2.js` for Game 2. **User jQuery for all DOM manipulation**.
+You've been provided starter HTML, CSS and JS. Everything should be linked properly including **jQuery**. There's no need to edit `index.html` or `style.css` - work only in `game1.js` for Game 1 and `game2.js` for Game 2. **Use jQuery for all DOM manipulation**.
 
-Before coding, look through the instructions and notes for the game you're working on. Be sure to spend some time thinking about how to build a game out before actually touching ANY code. Even if your pseudocode isn't perfect, it breaks down the problem into smaller steps to tackle and gives you a roadmap of how to proceed.
+Before coding, **look through the instructions and notes for the game you're working on**. Be sure to spend some time thinking about how to build a game out before actually touching ANY code. Even if your pseudocode isn't perfect, it breaks down the problem into smaller steps to tackle and gives you a roadmap of how to proceed.
 
 ## Completion
 
@@ -32,7 +32,7 @@ What should a user be able to do with the game?
 2. When the mouse **leaves** a zone change its background color back
 3. When you click on a zone it **locks** its color to green.
 
-  > HINT: You probably need to remove some event listeners ([jQuery off() method](http://api.jquery.com/off/))
+  > HINT: You probably need to remove some event listeners with [jQuery off() method](http://api.jquery.com/off/)
 4. When all zones are checked green, `console.log` or `alert` a statement of congratulations!
 
 **Here are some useful questions and notes for you:**
