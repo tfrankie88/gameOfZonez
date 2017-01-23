@@ -33,7 +33,7 @@ What should a user be able to do with the game?
 3. When you click on a zone it **locks** its color to green.
 
   > HINT: You probably need to remove some event listeners ([jQuery off() method](http://api.jquery.com/off/))
-4. When all zones are checked green, log a statement of congratulations to the console!
+4. When all zones are checked green, `console.log` or `alert` a statement of congratulations!
 
 **Here are some useful questions and notes for you:**
 
@@ -41,6 +41,18 @@ What should a user be able to do with the game?
 - Conversely, you might need a function that will change the background of the zone to clear or white or none.
 - Take a look at `style.css`, we already have styles for a class `.green`. How might this change how you build the functions? (Changing background-color versus toggling the `.green` class)
 - What kind of event listeners do we need? Is there documentation out there for different types of event listeners?
+- Remember to you can use the `$(this)` jQuery object in your event listeners to refer back to the target element of the event listener.
+- You can set or check the `id` of an element with the `attr()` method.
+- For jQuery event listeners, remember we prefer the syntax:
+  ```javascript
+  $('.class').on('click', function);
+  ```
+
+  over the shortcut
+
+  ```javascript
+  $('.class').click(function);
+  ```
 - How would you add an event listener to one DOM element? How about to all DOM elements of a set (e.g. with the same class)
 - How can you remove event listeners?
 - Which event listeners should be removed?
