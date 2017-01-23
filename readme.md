@@ -31,6 +31,7 @@ What should a user be able to do with the game?
 1. When the mouse **enters** any of the zones change its background color to `green`
 2. When the mouse **leaves** a zone change its background color back
 3. When you click on a zone it **locks** its color to green.
+
   > HINT: You probably need to remove some event listeners ([jQuery off() method](http://api.jquery.com/off/))
 4. When all zones are checked green, log a statement of congratulations to the console!
 
