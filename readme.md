@@ -1,8 +1,8 @@
 # Game of Zones
 
-![Mic Drop](https://giphy.com/gifs/game-of-thrones-mic-drop-5V5gCfO0xWD4I)
+![Mic Drop](https://i.giphy.com/5V5gCfO0xWD4I.gif)
 
-When you play the Game of Zones, you win, or ... well you don't die, but you might not win. We're going to be building some interactive games using our new knowledge of jQuery, compounding our previous knowledge of functions and JavaScript fundamentals.
+When you play the Game of Zones, you win or ... well you don't die, but you might not win. We're going to be building some interactive games using our new knowledge of jQuery, compounding our previous knowledge of functions and JavaScript fundamentals.
 
 ## Setup
 
