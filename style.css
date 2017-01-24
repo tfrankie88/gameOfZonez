@@ -6,10 +6,11 @@
 .zone {
   width: 100px;
   height: 100px;
-  border: solid black;
+  border: solid rgba(29, 117, 68, .25);
   margin: 20px;
   display: inline-block;
   transition: 0.5s all;
+  border-radius: 5px;
 }
 
 .green {
